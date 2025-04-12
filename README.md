@@ -9,11 +9,11 @@ uv sync
 ```
 
 ```bash
-uv run src\wiki-topic-\download_stopword.py
+uv run src\wiki-topic-words\download_stopword.py
 ```
 
 # How to use
 
 ```bash
-uv run python src/wiki_topic_words/app.py "Large_language_models"
+uv run python src\wiki_topic_words\app.py "Large_language_models"
 ```
