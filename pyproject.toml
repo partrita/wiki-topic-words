@@ -1,0 +1,20 @@
+[project]
+name = "wiki-topic-words"
+version = "0.1.0"
+description = "Simple script for vibe coding"
+readme = "README.md"
+authors = [
+    { name = "ehottl", email = "byterube@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "nltk>=3.9.1",
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+wiki-topic-words = "app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
